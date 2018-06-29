@@ -199,7 +199,7 @@ GEM
       activesupport (>= 3.2.0)
       json (>= 1.7)
       mime-types (>= 1.16)
-    childprocess (0.5.9)
+    childprocess (0.9.0)
       ffi (~> 1.0, >= 1.0.11)
     climate_control (0.0.3)
       activesupport (>= 3.0)
@@ -247,7 +247,7 @@ GEM
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.10.0)
       faraday (>= 0.7.4, < 0.10)
-    ffi (1.9.10)
+    ffi (1.9.25)
     flashy (0.0.1)
       railties (>= 3.1.0)
     foreigner (1.1.6)
@@ -301,7 +301,7 @@ GEM
     method_source (0.8.2)
     mime-types (1.25.1)
     modernizr-rails (2.7.1)
-    multi_json (1.11.2)
+    multi_json (1.13.1)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
     mysql2 (0.3.16)
@@ -480,7 +480,7 @@ GEM
       rack (>= 1.0.0)
     warden (1.2.6)
       rack (>= 1.0)
-    websocket (1.2.2)
+    websocket (1.2.8)
     xpath (2.0.0)
       nokogiri (~> 1.3)
 
@@ -547,3 +547,6 @@ DEPENDENCIES
   thinking-sphinx (= 2.0.14)
   uglifier (= 1.2.3)
   unicorn (= 4.8.3)
+
+BUNDLED WITH
+   1.16.1
