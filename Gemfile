@@ -8,10 +8,10 @@ gem 'sqlite3', '= 1.3.9'
 gem 'pg', '= 0.17.1'
 gem 'mysql2', '= 0.3.16'
 
-gem 'sass-rails', '= 3.2.6'
+gem 'sass-rails', '= 4.0.0'
 gem 'bootstrap-sass', '= 3.1.1.0'
 
-gem 'coffee-rails', '= 3.2.2'
+gem 'coffee-rails', '= 4.0.0'
 gem 'uglifier', '= 1.2.3'
 gem 'jquery-rails', '= 3.1.0'
 gem 'jquery-ui-rails', '= 4.1.2'
@@ -24,7 +24,7 @@ gem 'resque', '= 1.23.1'
 gem 'rmagick', '=2.13.2'
 gem 'thinking-sphinx', '= 2.0.14'
 gem 'exception_notification', '= 4.1.1'
-gem 'rspec-rails', '= 2.9'
+gem 'rspec-rails', '= 2.9.0'
 gem 'net-ssh', '= 2.4.0'
 gem 'shortener', '= 0.3.0'
 gem 'rubyzip', '= 1.0.0'
@@ -75,7 +75,7 @@ else
 end
 
 #for INVITATION ONLY
-gem 'devise_invitable', '= 1.1.8'
+gem 'devise_invitable', '= 1.2.1'
 
 #CAS
 gem 'devise_cas_authenticatable', '= 1.7.1'
