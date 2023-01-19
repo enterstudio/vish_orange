@@ -8,12 +8,12 @@ gem 'sqlite3', '= 1.3.9'
 gem 'pg', '= 0.17.1'
 gem 'mysql2', '= 0.3.16'
 
-gem 'sass-rails', '= 3.2.6'
+gem 'sass-rails', '= 5.0.8'
 gem 'bootstrap-sass', '= 3.1.1.0'
 
-gem 'coffee-rails', '= 3.2.2'
+gem 'coffee-rails', '= 4.2.2'
 gem 'uglifier', '= 1.2.3'
-gem 'jquery-rails', '= 3.1.0'
+gem 'jquery-rails', '= 4.0.1'
 gem 'jquery-ui-rails', '= 4.1.2'
 gem 'json', '= 1.8.3'
 gem 'sinatra', '= 1.3.2'
@@ -42,7 +42,7 @@ gem 'mailboxer', '= 0.10.3'
 gem 'hashie', '= 2.1.2'
 gem 'detect_language', '=1.0.5'
 gem 'faker', '= 1.4.3'
-gem 'acts-as-taggable-on', '= 2.4.1'
+gem 'acts-as-taggable-on', '= 3.1.0'
 gem 'test-unit', '= 3.0.9'
 gem 'sitemap_generator'
 gem 'descriptive_statistics', '~> 2.4.0', :require => 'descriptive_statistics/safe'
@@ -75,7 +75,7 @@ else
 end
 
 #for INVITATION ONLY
-gem 'devise_invitable', '= 1.1.8'
+gem 'devise_invitable', '= 1.6.0'
 
 #CAS
 gem 'devise_cas_authenticatable', '= 1.7.1'
