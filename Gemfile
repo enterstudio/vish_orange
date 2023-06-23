@@ -75,7 +75,7 @@ else
 end
 
 #for INVITATION ONLY
-gem 'devise_invitable', '= 1.1.8'
+gem 'devise_invitable', '= 1.2.1'
 
 #CAS
 gem 'devise_cas_authenticatable', '= 1.7.1'
