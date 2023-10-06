@@ -8,13 +8,13 @@ gem 'sqlite3', '= 1.3.9'
 gem 'pg', '= 0.17.1'
 gem 'mysql2', '= 0.3.16'
 
-gem 'sass-rails', '= 3.2.6'
+gem 'sass-rails', '= 5.0.8'
 gem 'bootstrap-sass', '= 3.1.1.0'
 
-gem 'coffee-rails', '= 3.2.2'
+gem 'coffee-rails', '= 4.2.2'
 gem 'uglifier', '= 1.2.3'
-gem 'jquery-rails', '= 3.1.0'
-gem 'jquery-ui-rails', '= 4.1.2'
+gem 'jquery-rails', '= 4.0.1'
+gem 'jquery-ui-rails', '= 4.2.0'
 gem 'json', '= 1.8.3'
 gem 'sinatra', '= 1.3.2'
 gem 'selenium-webdriver', '= 2.44.0'
@@ -23,26 +23,26 @@ gem 'redis', '= 3.0.7'
 gem 'resque', '= 1.23.1'
 gem 'rmagick', '=2.13.2'
 gem 'thinking-sphinx', '= 2.0.14'
-gem 'exception_notification', '= 4.1.1'
-gem 'rspec-rails', '= 2.9'
+gem 'exception_notification', '= 4.5.0'
+gem 'rspec-rails', '= 2.10.0'
 gem 'net-ssh', '= 2.4.0'
-gem 'shortener', '= 0.3.0'
+gem 'shortener', '= 0.3.1'
 gem 'rubyzip', '= 1.0.0'
 gem 'pry', '= 0.9.12.6'
 gem 'rest-client', '= 1.6.7'
 gem 'pdf-reader', '= 1.3.3'
 gem 'avatars_for_rails', '= 1.1.4'
 gem 'axlsx', '= 2.0.1' #xlsx generation
-gem 'axlsx_rails', '= 0.1.5'
+gem 'axlsx_rails', '= 0.6.0'
 gem 'acts_as_xlsx', :git => 'git://github.com/randym/acts_as_xlsx.git', :ref => '919817e590b1cf8e27632e630469603c78a50402'
-gem "paperclip", '= 3.5.1'
-gem "delayed_paperclip", "= 2.7.0"
+gem "paperclip", "= 3.5.2"
+gem "delayed_paperclip", "= 2.7.1"
 gem 'sanitize', '= 2.1.0'
-gem 'mailboxer', '= 0.10.3'
+gem 'mailboxer', '= 0.11.0'
 gem 'hashie', '= 2.1.2'
 gem 'detect_language', '=1.0.5'
 gem 'faker', '= 1.4.3'
-gem 'acts-as-taggable-on', '= 2.4.1'
+gem 'acts-as-taggable-on', '= 3.1.0'
 gem 'test-unit', '= 3.0.9'
 gem 'sitemap_generator'
 gem 'descriptive_statistics', '~> 2.4.0', :require => 'descriptive_statistics/safe'
@@ -75,10 +75,10 @@ else
 end
 
 #for INVITATION ONLY
-gem 'devise_invitable', '= 1.1.8'
+gem 'devise_invitable', '= 1.6.0'
 
 #CAS
-gem 'devise_cas_authenticatable', '= 1.7.1'
+gem 'devise_cas_authenticatable', '= 1.8.0'
 
 # $ export FORCE_LOCAL_SCORM=scormGemPath
 if ENV['FORCE_LOCAL_SCORM']
