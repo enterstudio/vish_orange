@@ -33,11 +33,11 @@ gem 'rest-client', '= 1.6.7'
 gem 'pdf-reader', '= 1.3.3'
 gem 'avatars_for_rails', '= 1.1.4'
 gem 'axlsx', '= 2.0.1' #xlsx generation
-gem 'axlsx_rails', '= 0.1.5'
+gem 'axlsx_rails', '= 0.2.0'
 gem 'acts_as_xlsx', :git => 'git://github.com/randym/acts_as_xlsx.git', :ref => '919817e590b1cf8e27632e630469603c78a50402'
 gem "paperclip", '= 3.5.1'
 gem "delayed_paperclip", "= 2.7.0"
-gem 'sanitize', '= 2.1.0'
+gem 'sanitize', '= 2.1.1'
 gem 'mailboxer', '= 0.10.3'
 gem 'hashie', '= 2.1.2'
 gem 'detect_language', '=1.0.5'
@@ -101,5 +101,5 @@ end
 group :test do
   # Pretty printed test output
   gem 'factory_girl', '= 2.6'
-  gem 'capybara', '= 2.3.0'
+  gem 'capybara', '= 2.4.0'
 end
